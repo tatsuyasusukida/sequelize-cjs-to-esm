@@ -6,7 +6,10 @@
   "scripts": {
     "db": "mysql -u root < db.sql",
     "cjs": "node main-cjs.js",
-    "esm": "DB_URL=mysql://tech_blog_user:tech_blog_pass@localhost:3306/tech_blog_db node main-esm.mjs"
+    "esm": "DB_URL=mysql://tech_blog_user:tech_blog_pass@localhost:3306/tech_blog_db node main-esm.mjs",
+    "gist:cjs": "gist -u 4ab46713fd589886bc26f25e0a7a6504 config/config.json models-cjs/article.js models-cjs/index.js models-cjs/user.js main-cjs.js",
+    "gist:esm": "gist -u 1e16db81ca8b38e8d77ccd88cb121f31 models-esm/article.mjs models-esm/index.mjs models-esm/user.mjs main-esm.mjs",
+    "gist": "npm run gist:cjs && npm run gist:esm"
   },
   "keywords": [],
   "author": "",
