@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "tech_blog_user",
+    "password": "tech_blog_pass",
+    "database": "tech_blog_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "tech_blog_user",
+    "password": "tech_blog_pass",
+    "database": "tech_blog_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "tech_blog_user",
+    "password": "tech_blog_pass",
+    "database": "tech_blog_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
