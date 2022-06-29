@@ -61,7 +61,7 @@ The changes are as follows.
 
 An example of use is shown below.
 
-[Click to go to main-esm.js](https://github.com/tatsuyasusukida/sequelize-cjs-to-esm/blob/main/main-esm.js)
+[Click to go to main-esm.mjs](https://github.com/tatsuyasusukida/sequelize-cjs-to-esm/blob/main/main-esm.mjs)
 
 The changes are as follows.
 
